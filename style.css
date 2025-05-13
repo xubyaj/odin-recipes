@@ -1,159 +1,38 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Helvetica Neue', sans-serif;
-    color: #333;
-    line-height: 1.6;
-    background-color: #fff5d5;
-  }
-  
-  /* Header */
-  header {
-    background-color: #8b0000;
-    color: #fff;
-    padding: 20px 40px;
-    text-align: center;
-  }
-  
-  header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-  }
-  
-  /* Navigation */
-  nav {
-    background-color: #333;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    font-size: 1.1em;
-  }
-  
-  nav a:hover {
-    color: #f0c040;
-  }
-  
-  /* Hero / Banner Section */
-  .hero {
-    background-image: url('hero.jpg'); /* Replace with actual image path */
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 20px;
-  }
-  
-  .hero h2 {
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  
-  .hero p {
-    font-size: 1.2em;
-  }
-  
-  /* Menu Section */
-  .menu {
-    padding: 20px 60px;
-    background-color: #fff;
-    text-align: left;
-  }
-  
-  .menu h2 {
-    font-size: 2.2em;
-    margin-bottom: 40px;
-    color: #8b0000;
-  }
-  
-  .menu-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-  }
-  
-  .menu-item {
-    background-color: #fefefe;
-    border: 1px solid #ddd;
-    padding: 20px;
-    width: 280px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  
-  .menu-item h3 {
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .menu-item p {
-    color: #666;
-    font-size: 0.95em;
-  }
-  
-  /* About Section */
-  .about {
-    background-color: #f9f4ee;
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  .about h2 {
-    font-size: 2em;
-    color: #8b0000;
-    margin-bottom: 20px;
-  }
-  
-  .about p {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 1.1em;
-    color: #444;
-  }
-  
-  /* Footer */
-  footer {
-    background-color: #333;
-    color: #ccc;
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
-  }
-  
-  footer a {
-    color: #f0c040;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .menu-items {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .hero h2 {
-      font-size: 2em;
-    }
-  
-    nav a {
-      display: block;
-      margin: 10px 0;
-    }
-  }
-  
+body {
+  background-color: #e2c5ad;
+}
+
+h1 {
+  color: #000000;
+  background-color: #4d633573;
+  text-align: center;
+  margin: 0px
+}
+
+h2 {
+  color: #3d5e14;
+  /* background-color: beige; */
+  margin-top: 10px
+}
+
+
+p {
+  /* background-color: white; */
+  width: 1000px;
+  margin: 0 auto 0 0;
+}
+
+ul {
+  /* background-color: white; */
+  width: 1000px;
+  margin: 0 auto 0 0;
+}
+
+ol {
+  width: 1000px;
+  margin: 0 auto 0 0;
+}
+
+.return {
+  text-align: center;
+}
