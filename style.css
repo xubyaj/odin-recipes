@@ -2,14 +2,15 @@ body {
   background-color: #856172;
 }
 
-.recipies {
+.recipies .rlist{
   margin-top:100px;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight:bold;
 }
 
 h1 {
   color: #000000;
-  background-color: #C2A85D;
+  background-color: #D4BE85;
   text-align: center;
   margin: 0px;
   font-family: serif;
@@ -18,30 +19,49 @@ h1 {
 h2 {
   color: #D4BE85;
   /* background-color: beige; */
-  margin-top: 10px
+  margin: 10px 0px 0px 0px;
+  font-size:20px;
 }
 
 
 p {
   /* background-color: white; */
   width: 1000px;
-  margin: 0 auto 0 0;
+  margin: 0px auto 0px 0px;
+  color: white;
+  font-size:18px;
 }
 
 ul {
   /* background-color: white; */
   width: 1000px;
-  margin: 0 auto 0 0;
+  margin: 0px auto 0px 0px;
+  color:white;
+  font-size:18px;
 }
 
 ol {
   width: 1000px;
-  margin: 0 auto 0 0;
+  margin: 0px auto 0px 0px;
+  color: white;
+  margin-bottom:100px;
+  font-size:18x;
 }
 
 .return {
   text-align: center;
-  background-color:#D4BE85;
-  padding-top: 10px;
-  padding-bottom:10px;
+  background-color:#000000;
+  padding-top: 5px;
+  font-weight:bold;
+}
+
+a {
+  color: #fdffc2;
+}
+
+.food {
+  border: 15px solid;
+  margin-top:10px;
+  height:400px;
+  width: 550px;
 }
